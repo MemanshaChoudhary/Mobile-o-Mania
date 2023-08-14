@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="du">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- ----------main style------------ -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+        <!-- ------------Google Fonts-------------- -->
+        <link href="https://fonts.googleapis.com/css2?family=Recursive:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet">
+        <!-- --------------Icon pack font-awesome----------- -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- --------------------Slider---------------- -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+        <!-- --------------------Google Maps Api---------------- -->
+        <script defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCl7F3URup7S4Of3R3cJQLk535vNnUQRzg&callback=initMap">
+            
+        </script>
+        <title>Mobile-o-mania</title>
+    </head>
+
+    <body>
+        <div class="header">
+            <div class="container">
+                <div class="navbar">
+                    <div class="logo">
+                        <img src="imagess/Mobile o Mania-logos_transparent.png" style="height:160px;" alt="logo-image">
+                    </div>
+                    <nav>
+                        <ul id="menu-items">
+                            <li><a href="">Home</a></li>
+                            <li><a href="index2.html">Products</a></li>
+                            <li><a href="aboutusm.html">About</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="register.html">Account</a></li>
+                        </ul>
+                    </nav>
+                    <img src="images/cart.png" alt="cart" width="30px" height="30px" class="cart-img">
+                    <img src="images/menu.png" alt="menu"    class="menu-icon" onclick="menutoggle()">
+                </div>
+                <div class="row">
+                    <div class="col-md-6 ">
+                        <h1 class="text-white">Great deals happening <br> Right Now!</h1>
+                        <p>Enjoy a safe, convenient shopping experience</p>
+                        <p>Shop stress-free from home. We’re ready to help, online or by phone.</p>
+                        <a href="" class="btn btn-main">Explore Now &#8594;</a>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="imagess/background-removebg-preview.png" alt="banner-image" class="center">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        
+            <div class="products">
+                <div class="pro1">
+                  <a href="#"> <img src="imagess/apple.png" height="60vh" /></a>
+                </div>
+                <div class="pro2">
+                  <a href="#"> <img src="imagess/oppo.png" height="75vh" /></a>
+                </div>
+        
+                <div class="pro3">
+                  <a href="#"> <img src="imagess/mi.png" height="40vh" /></a>
+                </div>
+                <div class="pro5">
+                  <a href="#"> <img src="imagess/techno.png" height="60vh" /></a>
+                </div>
+                <div class="pro6">
+                  <a href="#"> <img src="imagess/POCO.png" height="55vh" /></a>
+                </div>
+                <div class="pro7">
+                  <a href="#"> <img src="imagess/vivo.png" height="65vh" /></a>
+                </div>
+                <div class="pro4">
+                  <a href="#"> <img src="imagess/realme (2).png" height="75vh" /></a>
+                </div>
+                <div class="pro8">
+                  <a href="#"> <img src="imagess/motorola.png" height="50vh" /></a>
+                </div>
+            </div>
+               
+                 
+                
+            
+
+
+       
+        <!-- Latest products -->
+        <div class="small-container mt-5">
+            <h2 class="title">Latest Products</h2>
+            <div class="row horizontal-scroll-wrapper squares">
+                <div class="col-4 box-container">
+                    <div class="image-overlay"></div>
+                    <img src="products/iphone13pink.webp" alt="tablet pc" >
+                    <h5 class="product_name">Apple iPhone 13</h5>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <div class="content-details fadeIn-bottom">
+                        <h3 class="content-title">Apple iPhone 13</h3>
+                        <h4 class="content-price">Rs.62,999</h4>
+                        <div class="content-btn btn btn-secondary" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></div>
+                    </div>
+                    <p class="price_name" >Rs.62,999</p>
+                    <!-- <div class="btn btn-secondary" title="Preview Item"><i class="fa fa-cart-plus" aria-hidden="true"></i>
+                    </div> -->
+                </div>
+                <div class="col-4 box-container">
+                    <div class="image-overlay"></div>
+                    <img src="products/iphone12blue64.webp" alt="Apple iPhone 12" >
+                    <h5 class="product_name">Apple iPhone 12</h5>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <div class="content-details fadeIn-bottom">
+                        <h3 class="content-title">Apple iPhone 12</h3>
+                        <h4 class="content-price">Rs.60,999</h4>
+                        <div class="content-btn btn btn-secondary" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></div>
+                    </div>
+                    <p class="price_name" >Rs.60,999</p>
+                    <!-- <div class="btn btn-secondary" title="Preview Item"><i class="fa fa-cart-plus" aria-hidden="true"></i>
+                    </div> -->
+                </div>
+                <div class="col-4 box-container">
+                    <div class="image-overlay"></div>
+                    <img src="images/iphonex-phone.jpg" alt="Apple iPhone X" >
+                    <h5 class="product_name">Apple iPhone X</h5>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <div class="content-details fadeIn-bottom">
+                        <h3 class="content-title">Apple iPhone X</h3>
+                        <h4 class="content-price">Rs.70,999</h4>
+                        <div class="content-btn btn btn-secondary" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></div>
+                    </div>
+                    <p class="price_name" >Rs.70,999</p>
+                    <!-- <div class="btn btn-secondary" title="Preview Item"><i class="fa fa-cart-plus" aria-hidden="true"></i>
+                    </div> -->
+                </div>
+               
+                
+                
+            </div>
+            <!-- featured products -->
+            <h2 class="title">Featured Products</h2>
+            <div class="row">
+                <div class="col-4 box-container">
+                    <img src="products/iphone13pink.webp" alt="Gaming Laptop">
+                    <h5 class="product_name">X-box Console</h5>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p class="price_name" >Rs2000</p>
+                </div>
+                <div class="col-4 box-container">
+                    <img src="images/iphone9-phone.jpg" alt="phone">
+                    <h5 class="product_name">Canon 12X Pro Shoot</h5>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p class="price_name" >Rs990</p>
+                </div>
+                <div class="col-4 box-container">
+                    <img src="products/iphone12blue64.webp" alt="Iphone SE">
+                    <h5 class="product_name">IPhone SE</h5>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p class="price_name" >Rs4999.99</p>
+                </div>
+                <div class="col-4 box-container">
+                    <img src="images/iphone9-phone.jpg" alt="phone">
+                    <h5 class="product_name">Samsung Tablet PC</h5>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <p class="price_name" >Rs3999.99</p>
+                </div>
+                <div class="col-4 box-container">
+                    <img src="products/iphone13pink.webp" alt="Imac">
+                    <h5 class="product_name">Apple Imac</h5>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p class="price_name" >Rs7999.99</p>
+                </div>
+                <div class="col-4 box-container">
+                    <img src="products/iphone12blue64.webp" alt="Gaming Laptop">
+                    <h5 class="product_name">USB Type-C Thunderbolt</h5>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p class="price_name" >Rs200</p>
+                </div>
+                <div class="col-4 box-container">
+                    <img src="products/iphone13pink.webp" alt="Gaming Laptop">
+                    <h5 class="product_name">Alienware Laptop</h5>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p class="price_name" >Rs7000.99</p>
+                </div>
+                <div class="col-4 box-container">
+                    <img src="images/iphone9-phone.jpg" alt="Playstation 4">
+                    <h5 class="product_name">Call of Duty MW</h5>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p class="price_name" >Rs1000.99</p>
+                </div>
+                <div class="col-4 box-container">
+                    <img src="products/iphone12blue64.webp" alt="Phantom Drone">
+                    <h5 class="product_name">Phantom Drone</h5>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <p class="price_name" >Rs2500.00</p>
+                </div>
+                <div class="col-4 box-container">
+                    <img src="products/iphone12blue64.webp" alt="Epson Projector">
+                    <h5 class="product_name">Epson Projector</h5>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p class="price_name" >Rs1000.99</p>
+                </div>
+                <div class="col-4 box-container">
+                    <img src="products/iphone13pink.webp" alt="Gaming Headset">
+                    <h5 class="product_name">Ps4 Gaming Headset</h5>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p class="price_name" >Rs800</p>
+                </div>
+                <div class="col-4 box-container">
+                    <img src="products/iphone12blue64.webp" alt="Super Bass Laptop Speakers">
+                    <h5 class="product_name">Super Bass USB Speakers</h5>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p class="price_name" >Rs1500</p>
+                </div>
+                <div class="col-4 box-container">
+                    <img src="products/iphone13pink.webp" alt="Fifa 20 Xbox">
+                    <h5 class="product_name">Fifa 20 Xbox</h5>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p class="price_name" >Rs300</p>
+                </div>
+                <div class="col-4 box-container">
+                    <img src="products/iphone12blue64.webp" alt="Xbox Headset">
+                    <h5 class="product_name">X-box Headset</h5>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p class="price_name" >Rs1000.99</p>
+                </div>
+                <div class="col-4 box-container">
+                    <img src="products/iphone12blue64.webp" alt="falcon-drone">
+                    <h5 class="product_name">Falcon Drone</h5>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p class="price_name" >Rs3000</p>
+                </div>
+                <div class="col-4 box-container">
+                    <img src="products/iphone12blue64.webp" alt="Fortnite">
+                    <h5 class="product_name">Ps4 Fornite</h5>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p class="price_name" >Rs300</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- offer -->
+        <div class="offer">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-6">
+                        <img src="imagess/background-removebg-preview.png" class="offer-img">
+                    </div>
+                    <div class="col-6 text-data text-white">
+                        <p>Top Apple Products, you should take it</p>
+                        <h1>limited offer!</h1>
+                        
+                        <a href="" class="btn">Buy Now &#8594</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+      
+       
+        <!-- -------footer------ -->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer1">
+                        <h3>Download our app from playstore</h3>
+                        <p>Top brand Prodcuts with good support</p>
+                        <div class="app-logo">
+                            <img src="images/playstore.png" alt="" >
+                           
+                        </div>
+                    </div>
+                    <div class="footer2">
+                        <img src="images" alt="">
+                        <p>Best technology enabled products</p>
+                    </div>
+                    <div class="footer3">
+                        <h3>Contact Us</h3>
+                        <ul>
+                            <li>Rishabh raheja</li>
+                            <li>+91-7248741381</li>
+
+                            <li>Raghav Juneja</li>
+                            <li>+91-8958057279</li>
+                            
+                            
+                        </ul>
+                    </div>
+                    <div class="footer4">
+                        <h3>Follow Us on</h3>
+                        <ul>
+                            <li><a href="https://www.instagram.com/mobile_o_mania_officials/">Instagram</a></li>
+                            mobile-o-mania-officials
+                           
+                            
+                           
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <p class="copyright">Copyright &copy mobileomania01@gmail.com </p>
+            </div>
+        </div>
+        <script src="main.js"></script>
+            <!--Load the API from the specified URL
+            * The async attribute allows the browser to render the page while the API loads
+            * The key parameter will contain your own API key (which is not needed for this tutorial)
+            * The callback parameter executes the initMap() function
+            -->
+    </body>
+
+</html>
